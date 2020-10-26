@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src='https://api.mapbox.com/mapbox.js/v3.2.0/mapbox.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/v3.2.0/mapbox.css' rel='stylesheet'/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link type="text/css" href="style.css" rel="stylesheet" />
+    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v1.0.0/leaflet.markercluster.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v1.0.0/MarkerCluster.css' rel='stylesheet'/>
+    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v1.0.0/MarkerCluster.Default.css' rel='stylesheet'/>
+    <script type="text/javascript" src="main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class='sidebar'>
+    <h1>Bike Crashes in Chapel Hill</h1>
+    <form id="filters">
+            <div class="dropdown-btn">Crash Day
+                    <i class="fa fa-caret-down"></i>
+                </div>
+                <div class="dropdown-container">
+                    <input id="checkbox_43" type='checkbox' name='filters' onclick='showStations();' value='36' unchecked><label for="checkbox_43"><span></span> Monday</label> 
+                    <input id="checkbox_44" type='checkbox' name='filters' onclick='showStations();' value='37' unchecked><label for="checkbox_44"><span></span> Tuesday</label>
+                    <input id="checkbox_45" type='checkbox' name='filters' onclick='showStations();' value='38' unchecked><label for="checkbox_45"><span></span> Wednesday</label> 
+                    <input id="checkbox_46" type='checkbox' name='filters' onclick='showStations();' value='39' unchecked><label for="checkbox_46"><span></span> Thursday</label> 
+                    <input id="checkbox_47" type='checkbox' name='filters' onclick='showStations();' value='40' unchecked><label for="checkbox_47"><span></span> Friday</label> 
+                    <input id="checkbox_48" type='checkbox' name='filters' onclick='showStations();' value='41' unchecked><label for="checkbox_48"><span></span> Saturday</label> 
+                    <input id="checkbox_49" type='checkbox' name='filters' onclick='showStations();' value='42' unchecked><label for="checkbox_49"><span></span> Sunday</label> 
+                </div>
+
+            <div class="dropdown-btn">Crash Month
+                    <i id="icon2" class="fa fa-caret-down"></i>
+                </div>
+                <div class="dropdown-container">
+                    <input id="checkbox_8" type='checkbox' name='filters' onclick='showStations();' value='63' unchecked><label for="checkbox_8"><span></span> January</label>
+                    <input id="checkbox_9" type='checkbox' name='filters' onclick='showStations();' value='64' unchecked><label for="checkbox_9"><span></span> February</label> 
+                    <input id="checkbox_10" type='checkbox' name='filters' onclick='showStations();' value='3' unchecked><label for="checkbox_10"><span></span> March</label> 
+                    <input id="checkbox_11" type='checkbox' name='filters' onclick='showStations();' value='4' unchecked><label for="checkbox_11"><span></span> April</label> 
+                    <input id="checkbox_12" type='checkbox' name='filters' onclick='showStations();' value='5' unchecked><label for="checkbox_12"><span></span> May</label> 
+                    <input id="checkbox_13" type='checkbox' name='filters' onclick='showStations();' value='6' unchecked><label for="checkbox_13"><span></span> June</label> 
+                    <input id="checkbox_14" type='checkbox' name='filters' onclick='showStations();' value='7' unchecked><label for="checkbox_14"><span></span> July</label> 
+                    <input id="checkbox_15" type='checkbox' name='filters' onclick='showStations();' value='8' unchecked><label for="checkbox_15"><span></span> August</label> 
+                    <input id="checkbox_16" type='checkbox' name='filters' onclick='showStations();' value='9' unchecked><label for="checkbox_16"><span></span> September</label> 
+                    <input id="checkbox_17" type='checkbox' name='filters' onclick='showStations();' value='10' unchecked><label for="checkbox_17"><span></span> October</label> 
+                    <input id="checkbox_18" type='checkbox' name='filters' onclick='showStations();' value='11' unchecked><label for="checkbox_18"><span></span> November</label> 
+                    <input id="checkbox_19" type='checkbox' name='filters' onclick='showStations();' value='12' unchecked><label for="checkbox_19"><span></span> December</label> 
+                </div>
+
+            <div class="dropdown-btn">Crash Year
+                <i id="icon" class="fa fa-caret-down"></i>
+            </div>
+            <div class="dropdown-container">
+                <input id="checkbox_1" type='checkbox' name='filters' onclick='showStations();' value='2007' unchecked><label for="checkbox_1"><span></span> 2007</label>
+                <input id="checkbox_2" type='checkbox' name='filters' onclick='showStations();' value='2008' unchecked><label for="checkbox_2"><span></span> 2008</label>
+                <input id="checkbox_3" type='checkbox' name='filters' onclick='showStations();' value='2009' unchecked><label for="checkbox_3"><span></span> 2009</label>
+                <input id="checkbox_4" type='checkbox' name='filters' onclick='showStations();' value='2010' unchecked><label for="checkbox_4"><span></span> 2010</label>
+                <input id="checkbox_5" type='checkbox' name='filters' onclick='showStations();' value='2011' unchecked><label for="checkbox_5"><span></span> 2011</label> 
+                <input id="checkbox_6" type='checkbox' name='filters' onclick='showStations();' value='2012' unchecked><label for="checkbox_6"><span></span> 2012</label> 
+                <input id="checkbox_7" type='checkbox' name='filters' onclick='showStations();' value='2013' unchecked><label for="checkbox_7"><span></span> 2013</label> 
+            </div>
+
+            <div class="dropdown-btn">Weather
+                <i class="fa fa-caret-down"></i>
+            </div>
+            <div class="dropdown-container">
+                <input id="checkbox_20" type='checkbox' name='filters' onclick='showStations();' value='13' unchecked><label for="checkbox_20"><span></span> Clear</label> 
+                <input id="checkbox_21" type='checkbox' name='filters' onclick='showStations();' value='14' unchecked><label for="checkbox_21"><span></span> Cloudy</label> 
+                <input id="checkbox_22" type='checkbox' name='filters' onclick='showStations();' value='15' unchecked><label for="checkbox_22"><span></span> Rain</label> 
+            </div>
+
+            <div class="dropdown-btn">Biker Injury
+                <i class="fa fa-caret-down"></i>
+            </div>
+            <div class="dropdown-container">
+                <input id="checkbox_23" type='checkbox' name='filters' onclick='showStations();' value='16' unchecked><label for="checkbox_23"><span></span> Unknown Injury</label> 
+                <input id="checkbox_24" type='checkbox' name='filters' onclick='showStations();' value='17' unchecked><label for="checkbox_24"><span></span> No Injury</label> 
+                <input id="checkbox_25" type='checkbox' name='filters' onclick='showStations();' value='18' unchecked><label for="checkbox_25"><span></span> Possible Injury</label> 
+                <input id="checkbox_26" type='checkbox' name='filters' onclick='showStations();' value='19' unchecked><label for="checkbox_26"><span></span> Evident Injury</label> 
+                <input id="checkbox_27" type='checkbox' name='filters' onclick='showStations();' value='20' unchecked><label for="checkbox_27"><span></span> Disabling Injury</label> 
+                <input id="checkbox_28" type='checkbox' name='filters' onclick='showStations();' value='21' unchecked><label for="checkbox_28"><span></span> Killed</label> 
+            </div>
+
+            <div class="dropdown-btn">Biker Race
+                <i class="fa fa-caret-down"></i>
+            </div>
+            <div class="dropdown-container">
+                <input id="checkbox_29" type='checkbox' name='filters' onclick='showStations();' value='22' unchecked><label for="checkbox_29"><span></span> White</label> 
+                <input id="checkbox_30" type='checkbox' name='filters' onclick='showStations();' value='23' unchecked><label for="checkbox_30"><span></span> Black</label> 
+                <input id="checkbox_31" type='checkbox' name='filters' onclick='showStations();' value='24' unchecked><label for="checkbox_31"><span></span> Native American</label> 
+                <input id="checkbox_32" type='checkbox' name='filters' onclick='showStations();' value='25' unchecked><label for="checkbox_32"><span></span> Asian</label> 
+                <input id="checkbox_33" type='checkbox' name='filters' onclick='showStations();' value='26' unchecked><label for="checkbox_33"><span></span> Hispanic</label> 
+                <input id="checkbox_34" type='checkbox' name='filters' onclick='showStations();' value='27' unchecked><label for="checkbox_34"><span></span> Other</label> 
+                <input id="checkbox_35" type='checkbox' name='filters' onclick='showStations();' value='28' unchecked><label for="checkbox_35"><span></span> Unknown</label> 
+            </div>
+
+            <div class="dropdown-btn">Biker Alcohol Consumption
+                    <i class="fa fa-caret-down"></i>
+                </div>
+                <div class="dropdown-container">
+                    <input id="checkbox_50" type='checkbox' name='filters' onclick='showStations();' value='43' unchecked><label for="checkbox_50"><span></span> Yes</label> 
+                    <input id="checkbox_51" type='checkbox' name='filters' onclick='showStations();' value='44' unchecked><label for="checkbox_51"><span></span> No</label> 
+                    <input id="checkbox_52" type='checkbox' name='filters' onclick='showStations();' value='45' unchecked><label for="checkbox_52"><span></span> Unknown</label> 
+                </div>
+            
+            <div class="dropdown-btn"> Biker Gender
+                        <i class="fa fa-caret-down"></i>
+                    </div>
+                    <div class="dropdown-container">
+                        <input id="checkbox_56" type='checkbox' name='filters' onclick='showStations();' value='48' unchecked><label for="checkbox_56"><span></span> Male</label> 
+                        <input id="checkbox_57" type='checkbox' name='filters' onclick='showStations();' value='49' unchecked><label for="checkbox_57"><span></span> Female</label> 
+                        <input id="checkbox_58" type='checkbox' name='filters' onclick='showStations();' value='50' unchecked><label for="checkbox_58"><span></span> Unknown</label> 
+            </div>
+
+            <div class="dropdown-btn">Light Conditions
+                <i class="fa fa-caret-down"></i>
+            </div>
+            <div class="dropdown-container">
+                <input id="checkbox_36" type='checkbox' name='filters' onclick='showStations();' value='29' unchecked><label for="checkbox_36"><span></span> Daylight</label> 
+                <input id="checkbox_37" type='checkbox' name='filters' onclick='showStations();' value='30' unchecked><label for="checkbox_37"><span></span> Dusk</label> 
+                <input id="checkbox_38" type='checkbox' name='filters' onclick='showStations();' value='31' unchecked><label for="checkbox_38"><span></span> Dark - Road not lighted</label> 
+                <input id="checkbox_39" type='checkbox' name='filters' onclick='showStations();' value='32' unchecked><label for="checkbox_39"><span></span> Dark - Road lighted</label> 
+                <input id="checkbox_40" type='checkbox' name='filters' onclick='showStations();' value='33' unchecked><label for="checkbox_40"><span></span> Unknown</label> 
+            </div>
+
+            <div class="dropdown-btn">Excessive Speeding
+                <i class="fa fa-caret-down"></i>
+            </div>
+            <div class="dropdown-container">
+                <input id="checkbox_41" type='checkbox' name='filters' onclick='showStations();' value='34' unchecked><label for="checkbox_41"><span></span> Yes</label> 
+                <input id="checkbox_42" type='checkbox' name='filters' onclick='showStations();' value='35' unchecked><label for="checkbox_42"><span></span> No</label> 
+            </div>
+
+            <div class="dropdown-btn"> Road Surface
+                    <i class="fa fa-caret-down"></i>
+                </div>
+                <div class="dropdown-container">
+                        <input id="checkbox_66" type='checkbox' name='filters' onclick='showStations();' value='58' unchecked><label for="checkbox_66"><span></span> Smooth Asphalt</label> 
+                        <input id="checkbox_67" type='checkbox' name='filters' onclick='showStations();' value='59' unchecked><label for="checkbox_67"><span></span> Coarse Asphalt</label> 
+                        <input id="checkbox_68" type='checkbox' name='filters' onclick='showStations();' value='60' unchecked><label for="checkbox_68"><span></span> Concrete</label> 
+                        <input id="checkbox_69" type='checkbox' name='filters' onclick='showStations();' value='61' unchecked><label for="checkbox_69"><span></span> Gravel</label>
+                        <input id="checkbox_70" type='checkbox' name='filters' onclick='showStations();' value='62' unchecked><label for="checkbox_70"><span></span> Other</label>
+                </div>
+
+            <div class="dropdown-btn"> Road Conditions
+                <i class="fa fa-caret-down"></i>
+            </div>
+            <div class="dropdown-container">
+                <input id="checkbox_53" type='checkbox' name='filters' onclick='showStations();' value='46' unchecked><label for="checkbox_53"><span></span> Dry</label> 
+                <input id="checkbox_54" type='checkbox' name='filters' onclick='showStations();' value='47' unchecked><label for="checkbox_54"><span></span> Wet</label> 
+                <input id="checkbox_55" type='checkbox' name='filters' onclick='showStations();' value='65' unchecked><label for="checkbox_55"><span></span> Running Water on the road</label>
+            </div>
+
+            <div class="dropdown-btn"> Traffic Control
+                <i class="fa fa-caret-down"></i>
+            </div>
+            <div class="dropdown-container">
+                    <input id="checkbox_59" type='checkbox' name='filters' onclick='showStations();' value='51' unchecked><label for="checkbox_59"><span></span> No Traffic Control Present</label> 
+                    <input id="checkbox_60" type='checkbox' name='filters' onclick='showStations();' value='52' unchecked><label for="checkbox_60"><span></span> Stop Sign</label> 
+                    <input id="checkbox_61" type='checkbox' name='filters' onclick='showStations();' value='53' unchecked><label for="checkbox_61"><span></span> Stop and Go Sign</label> 
+                    <input id="checkbox_62" type='checkbox' name='filters' onclick='showStations();' value='54' unchecked><label for="checkbox_62"><span></span> Double Yellow Line, No Passing Zone</label>
+                    <input id="checkbox_63" type='checkbox' name='filters' onclick='showStations();' value='55' unchecked><label for="checkbox_63"><span></span> Yield Sign</label>
+                    <input id="checkbox_64" type='checkbox' name='filters' onclick='showStations();' value='56' unchecked><label for="checkbox_64"><span></span> Other</label>
+                    <input id="checkbox_65" type='checkbox' name='filters' onclick='showStations();' value='57' unchecked><label for="checkbox_65"><span></span> Missing</label> 
+            </div>
+    </form>
+    </div>
+    <nav id='layerFilter' class='filter-ui'></nav>
+    <nav id="legendaTab" class="legenda-ui">
+        <ul>
+            <h2>Bike Crashes</h2>
+            <li>
+                <img src="pin-m-bicycle+34a9ff .png"/>
+                <h3>Bike Crash Location</h3>
+            </li>
+            <li>
+                <img src="pin-m-square+ff2c0c.png"/>
+                <h3>Traffic Light</h3>
+            </li>
+            <h2>Bike Lanes</h2>
+            <li>
+                <img src="purple.png"/>
+                <h3>Requested Bike Lanes</h3>
+            </li>
+            <h2>Road Conditions</h2>
+            <li>
+                <img src="green.png"/>
+                <h3>Good</h3>
+            </li>
+            <li>
+                <img src="yellow.png"/>
+                <h3>Okay</h3>
+            </li>
+            <li>
+                <img src="orange.png"/>
+                <h3>Bad</h3>
+            </li>
+            <li>
+                <img src="red.png"/>
+                <h3>Very Bad</h3>
+            </li>
+        </ul>
+    </nav>
+    <div id='map'></div>
+<script>
+    L.mapbox.accessToken = 'pk.eyJ1IjoibmVuY2lvZ2l6dWgiLCJhIjoiY2pzZGlwMGd5MDd6cDQ0bWRuN2s5azhoYyJ9.NXeizvkZ4XD4bW270z4yDA';
+    var map = L.mapbox.map('map')
+    .setView([35.913, -79.056], 14)
+    .addLayer(L.mapbox.styleLayer('mapbox://styles/mapbox/dark-v10'));
+
+
+
+    L.control.scale().addTo(map);
+
+    var overlays = L.layerGroup().addTo(map);
+
+    var layers;
+
+    var bikecrashes = L.mapbox.featureLayer();
+    bikecrashes.loadURL('./bicycle.geojson');
+    bikecrashes.on('ready', function(e) {
+        layers = e.target;
+        showStations();
+    });
+
+    bikecrashes.on('click', function(e) {
+        map.panTo(e.layer.getLatLng());
+    });
+
+    L.mapbox.featureLayer('./trafficsignals.geojson').on('ready', function(e) {
+    // The clusterGroup gets each marker in the group added to it
+    // once loaded, and then is added to the map
+    var clusterSignal = new L.MarkerClusterGroup({
+      // The iconCreateFunction takes the cluster as an argument and returns
+      // an icon that represents it. We use L.mapbox.marker.icon in this
+      // example, but you could also use L.icon or L.divIcon.
+      iconCreateFunction: function(cluster) {
+        return L.mapbox.marker.icon({
+          // show the number of markers in the cluster on the icon.
+          'marker-symbol': cluster.getChildCount(),
+          'marker-color': '#ff2c0c'
+          });
+        }
+      });
+    e.target.eachLayer(function(layer) {
+        clusterSignal.addLayer(layer);
+     });
+     map.addLayer(clusterSignal);
+    });
+
+
+    var streets2007 = L.mapbox.featureLayer();
+    streets2007.loadURL('./streets2007.geojson');
+    streets2007.on('ready', layer);
+
+    var bikelanes = L.mapbox.featureLayer();
+    bikelanes.loadURL('./bike-map-lines.geojson');
+    bikelanes.on('ready', layer);
+
+    var filters = document.getElementById('filters').filters;
+    var layerFilter = document.getElementById('layerFilter');
+
+    function layer() {
+        var layer = this;
+        var name = layer.getGeoJSON().name;
+
+        var item = layerFilter.appendChild(document.createElement('div'));
+        var checkbox = item.appendChild(document.createElement('input'));
+        var label = item.appendChild(document.createElement('label'));
+        var span = item.appendChild(document.createElement('span'));
+        checkbox.type = 'checkbox';
+        checkbox.checked = false;
+        checkbox.style.visibility = "hidden";
+        checkbox.id = name;
+        label.innerHTML = "<span></span> " + name;
+        label.style.display = "block";
+        label.setAttribute('for', name);
+        checkbox.addEventListener('change', update);
+
+        function update() {
+            (checkbox.checked) ? layer.addTo(map) : map.removeLayer(layer);
+        }
+    }
+
+    function showStations() {
+        // In deze functie wordt er gekeken of naar checked boxes. Is dit zo worden ze
+        // toegevoegd aan de array als string
+        var crashYear = [];
+        for (var i = 0; i < filters.length; i++) {
+            if (filters[i].checked) crashYear.push(filters[i].value);
+        }
+        // then remove any previously-displayed marker groups
+        overlays.clearLayers();
+        // create a new marker group
+        var clusterGroup = new L.MarkerClusterGroup().addTo(overlays);
+        // and add any markers that fit the filtered criteria to that group.
+        layers.eachLayer(function(layer) {
+            for(var i = 0; i < layer.feature.properties.crash_year[i]; i++)
+            {
+                //console.log(layer.feature.properties.crash_year[i]);
+                if (crashYear.indexOf(layer.feature.properties.crash_year[i]) !== -1) {
+                layer.bindPopup('traffic_control: ' + layer.feature.properties.traff_cntr + '<br>'
+                 + 'biker_alc_consumption: ' + layer.feature.properties.bike_alc_d + "<br>" + 'weather: ' +
+                 layer.feature.properties.weather + "<br>" + "bike_injury: " + layer.feature.properties.bike_injur
+                 + "<br>" + "bike_race: " + layer.feature.properties.bike_race + "<br>" + "light_condition: " + layer.feature.properties.light_cond
+                 + "<br>" + "excessive_speeding: " + layer.feature.properties.excsspdind);
+                clusterGroup.addLayer(layer);
+             }
+            }
+        });
+    }
+
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var iconChange = document.getElementById("icon");
+    var iconChange2 = document.getElementById("icon2");
+    var i;
+
+   for (i = 0; i < dropdown.length; i++) {
+    dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    iconChange.classList.toggle("fa-caret-right");
+    iconChange2.classList.toggle("fa-caret-right");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "inline-block") {
+     dropdownContent.style.display = "none";
+    } else {
+     dropdownContent.style.display = "inline-block";
+    }
+    });
+}
+</script>
+</body>
+</html>

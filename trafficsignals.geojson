@@ -1,0 +1,2191 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.05831982722383, 35.96398848914195]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 1,
+            "y_coord": "805794.49904999998",
+            "x_coord": "1982741.32464000001",
+            "geo_point": [35.96398848914195, -79.05831982722383],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+            "marker-size": "medium",
+            "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.04881307405756, 35.902954076808854]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 10,
+            "y_coord": "783575.64556199999",
+            "x_coord": "1985543.74808000005",
+            "geo_point": [35.902954076808854, -79.04881307405756],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+            "marker-size": "medium",
+            "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.05036168028956, 35.90302613392358]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 10,
+            "y_coord": "783602.10410300002",
+            "x_coord": "1985085.13335000002",
+            "geo_point": [35.90302613392358, -79.05036168028956],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+            "marker-size": "medium",
+            "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.0526552017375, 35.90372780156876]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 10,
+            "y_coord": "783857.87000700005",
+            "x_coord": "1984406.03077999991",
+            "geo_point": [35.90372780156876, -79.0526552017375],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+            "marker-size": "medium",
+            "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.05360923284569, 35.90532648775852]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 9,
+            "y_coord": "784439.95792399999",
+            "x_coord": "1984123.80633999989",
+            "geo_point": [35.90532648775852, -79.05360923284569],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+            "marker-size": "medium",
+            "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.04261603634296, 35.91173925130121]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 9,
+            "y_coord": "786772.68939099996",
+            "x_coord": "1987380.40684999991",
+            "geo_point": [35.91173925130121, -79.04261603634296],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+            "marker-size": "medium",
+            "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.04789597129431, 35.91320321430877]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 9,
+            "y_coord": "787306.29994299996",
+            "x_coord": "1985817.15301000001",
+            "geo_point": [35.91320321430877, -79.04789597129431],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+            "marker-size": "medium",
+            "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.05434032058713, 35.910704221312486]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 12,
+            "y_coord": "786397.62334599998",
+            "x_coord": "1983908.36871000007",
+            "geo_point": [35.910704221312486, -79.05434032058713],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.07502501827194, 35.90997632572108]
+        },
+        "properties": {
+            "town": "Carrboro",
+            "zone": 13,
+            "y_coord": "786136.65316300001",
+            "x_coord": "1977782.87284000008",
+            "geo_point": [35.90997632572108, -79.07502501827194],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+            "marker-size": "medium",
+            "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.06386959739037, 35.90702858655982]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 13,
+            "y_coord": "785061.33607399999",
+            "x_coord": "1981085.63247000007",
+            "geo_point": [35.90702858655982, -79.06386959739037],
+            "signal_typ": "System_signal",
+            "id": 0,
+        "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.05338250876842, 35.91518613232651]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 8,
+            "y_coord": "788028.93193800002",
+            "x_coord": "1984192.87990000006",
+            "geo_point": [35.91518613232651, -79.05338250876842],
+            "signal_typ": "System_signal",
+            "id": 0,
+        "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-78.99982664648007, 35.95040589705085]
+        },
+        "properties": {
+            "town": "Durham",
+            "zone": 3,
+            "y_coord": "800845.14111199998",
+            "x_coord": "2000051.31202999991",
+            "geo_point": [35.95040589705085, -78.99982664648007],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.02655073234448, 35.93657044784096]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 4,
+            "y_coord": "795809.88584200002",
+            "x_coord": "1992140.13296999992",
+            "geo_point": [35.93657044784096, -79.02655073234448],
+            "signal_typ": "System_signal",
+            "id": 0,
+        "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.02382350848642, 35.90804142046715]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 6,
+            "y_coord": "785424.77940899995",
+            "x_coord": "1992944.98659000010",
+            "geo_point": [35.90804142046715, -79.02382350848642],
+            "signal_typ": "System_signal",
+            "id": 0,
+        "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.07715901383082, 35.89397778830165]
+        },
+        "properties": {
+            "town": "Carrboro",
+            "zone": 14,
+            "y_coord": "780313.52692099998",
+            "x_coord": "1977146.40720000002",
+            "geo_point": [35.89397778830165, -79.07715901383082],
+            "signal_typ": "System_signal",
+            "id": 0,
+        "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.07636584272241, 35.89543293865817]
+        },
+        "properties": {
+            "town": "Carrboro",
+            "zone": 14,
+            "y_coord": "780843.03159699996",
+            "x_coord": "1977381.74261000007",
+            "geo_point": [35.89543293865817, -79.07636584272241],
+            "signal_typ": "System_signal",
+            "id": 0,
+        "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.09403225441413, 35.91781461277036]
+        },
+        "properties": {
+            "town": "Carrboro",
+            "zone": 15,
+            "y_coord": "788994.66452500003",
+            "x_coord": "1972156.97149999999",
+            "geo_point": [35.91781461277036, -79.09403225441413],
+            "signal_typ": "System_signal",
+            "id": 0,
+        "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.03349868468848, 35.961480367080284]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 2,
+            "y_coord": "804878.10222600005",
+            "x_coord": "1990086.37581999996",
+            "geo_point": [35.961480367080284, -79.03349868468848],
+            "signal_typ": "System_signal",
+            "id": 0,
+        "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.08314127869859, 35.94730657510966]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 7,
+            "y_coord": "799727.24557999999",
+            "x_coord": "1975390.78915999993",
+            "geo_point": [35.94730657510966, -79.08314127869859],
+            "signal_typ": "System_signal",
+            "id": 0,
+        "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.0755344140017, 35.9519043877764]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 7,
+            "y_coord": "801399.12069200003",
+            "x_coord": "1977643.63879000000",
+            "geo_point": [35.9519043877764, -79.0755344140017],
+            "signal_typ": "System_signal",
+            "id": 0,
+        "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.05927349647413, 35.96612325690129]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 1,
+            "y_coord": "806571.75920800003",
+            "x_coord": "1982459.56783999992",
+            "geo_point": [35.96612325690129, -79.05927349647413],
+            "signal_typ": "System_signal",
+            "id": 0,
+        "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.05409136763477, 35.9250756216628]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 7,
+            "y_coord": "791628.93265600002",
+            "x_coord": "1983984.94090000005",
+            "geo_point": [35.9250756216628, -79.05409136763477],
+            "signal_typ": "System_signal",
+            "id": 0,
+        "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.05703170844846, 35.90202981649074]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 11,
+            "y_coord": "783240.50403299998",
+            "x_coord": "1983109.56224000012",
+            "geo_point": [35.90202981649074, -79.05703170844846],
+            "signal_typ": "System_signal",
+            "id": 0,
+        "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.05057364523356, 35.90862289919439]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 9,
+            "y_coord": "785639.41181500000",
+            "x_coord": "1985023.39675999992",
+            "geo_point": [35.90862289919439, -79.05057364523356],
+            "signal_typ": "System_signal",
+            "id": 0,
+        "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.0548089309049, 35.91150724778968]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 12,
+            "y_coord": "786690.00947100006",
+            "x_coord": "1983769.76197000011",
+            "geo_point": [35.91150724778968, -79.0548089309049],
+            "signal_typ": "System_signal",
+            "id": 0,
+        "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.06908360171768, 35.910689581998696]
+        },
+        "properties": {
+            "town": "Carrboro",
+            "zone": 13,
+            "y_coord": "786395.00856800005",
+            "x_coord": "1979542.48261999991",
+            "geo_point": [35.910689581998696, -79.06908360171768],
+            "signal_typ": "System_signal",
+            "id": 0,
+        "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.0673152705485, 35.91086321166579]
+        },
+        "properties": {
+            "town": "Carrboro",
+            "zone": 13,
+            "y_coord": "786457.85177499999",
+            "x_coord": "1980066.17601000005",
+            "geo_point": [35.91086321166579, -79.0673152705485],
+            "signal_typ": "System_signal",
+            "id": 0,
+        "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-78.99441533138885, 35.952866092691096]
+        },
+        "properties": {
+            "town": "Durham",
+            "zone": 3,
+            "y_coord": "801740.73759999999",
+            "x_coord": "2001652.91023000004",
+            "geo_point": [35.952866092691096, -78.99441533138885],
+            "signal_typ": "System_signal",
+            "id": 0,
+        "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.00260277112434, 35.949224723714046]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 3,
+            "y_coord": "800415.18572800001",
+            "x_coord": "1999229.61951999995",
+            "geo_point": [35.949224723714046, -79.00260277112434],
+            "signal_typ": "System_signal",
+            "id": 0,
+        "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.02190265754416, 35.935048996674404]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 5,
+            "y_coord": "795255.72112500004",
+            "x_coord": "1993515.99019999988",
+            "geo_point": [35.935048996674404, -79.02190265754416],
+            "signal_typ": "System_signal",
+            "id": 0,
+        "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.02419276186501, 35.93035019863351]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 5,
+            "y_coord": "793545.45415500004",
+            "x_coord": "1992837.61614999990",
+            "geo_point": [35.93035019863351, -79.02419276186501],
+            "signal_typ": "System_signal",
+            "id": 0,
+        "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.0239029425987, 35.93250258067926]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 5,
+            "y_coord": "794328.92840900004",
+            "x_coord": "1992923.60722999997",
+            "geo_point": [35.93250258067926, -79.0239029425987],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+            "marker-size": "medium",
+            "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.03025904198587, 35.927592817076274]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 4,
+            "y_coord": "792542.22492600000",
+            "x_coord": "1991041.35810999991",
+            "geo_point": [35.927592817076274, -79.03025904198587],
+            "signal_typ": "System_signal",
+            "id": 0,
+                    "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.00736178958007, 35.90164063034684]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 6,
+            "y_coord": "783094.06574200001",
+            "x_coord": "1997819.73347999994",
+            "geo_point": [35.90164063034684, -79.00736178958007],
+            "signal_typ": "System_signal",
+            "id": 0,
+                    "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.0613302517181, 35.88562780963487]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 11,
+            "y_coord": "777270.80288700003",
+            "x_coord": "1981832.82251000009",
+            "geo_point": [35.88562780963487, -79.0613302517181],
+            "signal_typ": "System_signal",
+            "id": 0,
+                    "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.09933629970028, 35.91946274287836]
+        },
+        "properties": {
+            "town": "Carrboro",
+            "zone": 15,
+            "y_coord": "789596.13179000001",
+            "x_coord": "1970587.03998999996",
+            "geo_point": [35.91946274287836, -79.09933629970028],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.09171971322216, 35.91269133618754]
+        },
+        "properties": {
+            "town": "Carrboro",
+            "zone": 15,
+            "y_coord": "787129.09656500001",
+            "x_coord": "1972839.99365000008",
+            "geo_point": [35.91269133618754, -79.09171971322216],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.06655708268086, 35.87342007977727]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 11,
+            "y_coord": "772828.11312700005",
+            "x_coord": "1980281.55723999999",
+            "geo_point": [35.87342007977727, -79.06655708268086],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-78.99442336976327, 35.954204244161595]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 3,
+            "y_coord": "2001650.50373000000",
+            "x_coord": "2001650.50373000000",
+            "geo_point": [35.954204244161595, -78.99442336976327],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.01817793080761, 35.9418702987734]
+        },
+        "properties": {
+            "zone": 4,
+            "y_coord": "1994619.10441999999",
+            "x_coord": "1994619.10441999999",
+            "geo_point": [35.9418702987734, -79.01817793080761],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.01626293173905, 35.943186761038056]
+        },
+        "properties": {
+            "zone": 4,
+            "y_coord": "1995186.04695000011",
+            "x_coord": "1995186.04695000011",
+            "geo_point": [35.943186761038056, -79.01626293173905],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.06403966960698, 35.974738299762]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 1,
+            "y_coord": "809708.66871100001",
+            "x_coord": "1981051.16730999993",
+            "geo_point": [35.974738299762, -79.06403966960698],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.05743137499715, 35.96115973185304]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 1,
+            "y_coord": "804764.62933899998",
+            "x_coord": "1983003.64994999999",
+            "geo_point": [35.96115973185304, -79.05743137499715],
+            "signal_typ": "System_signal",
+            "id": 0
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.0583070036596, 35.946239353806334]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 7,
+            "y_coord": "799333.52398000006",
+            "x_coord": "1982741.32464000001",
+            "geo_point": [35.946239353806334, -79.0583070036596],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.0569891314825, 35.93927373910006]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 7,
+            "y_coord": "796797.71271200001",
+            "x_coord": "1983129.95472000004",
+            "geo_point": [35.93927373910006, -79.0569891314825],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.05161264341332, 35.90334058588822]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 10,
+            "y_coord": "783716.75778400002",
+            "x_coord": "1984714.71377000003",
+            "geo_point": [35.90334058588822, -79.05161264341332],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.04169995508992, 35.91090381306869]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 9,
+            "y_coord": "786468.46609700006",
+            "x_coord": "1987651.55197999999",
+            "geo_point": [35.91090381306869, -79.04169995508992],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.05891288248313, 35.90895836082128]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 12,
+            "y_coord": "785762.88500999997",
+            "x_coord": "1982553.93286000006",
+            "geo_point": [35.90895836082128, -79.05891288248313],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.05635292274276, 35.91405303842018]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 8,
+            "y_coord": "787616.95980600000",
+            "x_coord": "1983313.07501000003",
+            "geo_point": [35.91405303842018, -79.05635292274276],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.05069422854014, 35.91511054931769]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 8,
+            "y_coord": "788001.00162400003",
+            "x_coord": "1984988.89385000011",
+            "geo_point": [35.91511054931769, -79.05069422854014],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.04977548149562, 35.91658796738378]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 8,
+            "y_coord": "788538.66016900004",
+            "x_coord": "1985261.21441000002",
+            "geo_point": [35.91658796738378, -79.04977548149562],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.0294549558753, 35.93502116006037]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 4,
+            "y_coord": "795246.16656100005",
+            "x_coord": "1991280.22221000004",
+            "geo_point": [35.93502116006037, -79.0294549558753],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.01264876947754, 35.94472496342281]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 3,
+            "y_coord": "798777.43329600000",
+            "x_coord": "1996255.93873000005",
+            "geo_point": [35.94472496342281, -79.01264876947754],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.0089854633969, 35.907351474469294]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 6,
+            "y_coord": "785172.90617099998",
+            "x_coord": "1997339.05407000007",
+            "geo_point": [35.907351474469294, -79.0089854633969],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.01056319799784, 35.902747337202214]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 6,
+            "y_coord": "783497.00268100004",
+            "x_coord": "1996871.64656000002",
+            "geo_point": [35.902747337202214, -79.01056319799784],
+            "signal_typ": "System_signal",
+            "id": 0
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.01000308208755, 35.9036589833792]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 6,
+            "y_coord": "783828.83310100005",
+            "x_coord": "1997037.56177000003",
+            "geo_point": [35.9036589833792, -79.01000308208755],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.00924888715832, 35.90587987393097]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 6,
+            "y_coord": "784637.23651900003",
+            "x_coord": "1997260.99404000002",
+            "geo_point": [35.90587987393097, -79.00924888715832],
+            "signal_typ": "System_signal",
+            "id": 0,
+        "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.01632606480207, 35.90528615574119]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 6,
+            "y_coord": "784421.38742299995",
+            "x_coord": "1995165.09010999999",
+            "geo_point": [35.90528615574119, -79.01632606480207],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.0360981558491, 35.89839932427274]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 10,
+            "y_coord": "781916.06486399996",
+            "x_coord": "1989308.73643000005",
+            "geo_point": [35.89839932427274, -79.0360981558491],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.05771759021968, 35.89445417237867]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 11,
+            "y_coord": "780483.02265199996",
+            "x_coord": "1982904.82903999998",
+            "geo_point": [35.89445417237867, -79.05771759021968],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.05937840970918, 35.891325727420266]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 11,
+            "y_coord": "779344.53446800006",
+            "x_coord": "1982412.23555000010",
+            "geo_point": [35.891325727420266, -79.05937840970918],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.08912904218009, 35.90482364565593]
+        },
+        "properties": {
+            "town": "Carrboro",
+            "zone": 14,
+            "y_coord": "784264.48128299997",
+            "x_coord": "1973604.57067999989",
+            "geo_point": [35.90482364565593, -79.08912904218009],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.0855502836515, 35.90600244940036]
+        },
+        "properties": {
+            "town": "Carrboro",
+            "zone": 14,
+            "y_coord": "784692.64442100003",
+            "x_coord": "1974664.78417000012",
+            "geo_point": [35.90600244940036, -79.0855502836515],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.0194648003871, 35.94903539998514]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 2,
+            "y_coord": "800346.82370600000",
+            "x_coord": "1994238.68610999989",
+            "geo_point": [35.94903539998514, -79.0194648003871],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.06370171172419, 35.92200333381545]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 7,
+            "y_coord": "790512.27158199996",
+            "x_coord": "1981138.84808999998",
+            "geo_point": [35.92200333381545, -79.06370171172419],
+            "signal_typ": "Cell_modem",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.0534571103707, 35.90207418251084]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 10,
+            "y_coord": "1984168.21937999991",
+            "x_coord": "1984168.21937999991",
+            "geo_point": [35.90207418251084, -79.0534571103707],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.05188495374357, 35.90158123079634]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 10,
+            "y_coord": "1984633.73326999997",
+            "x_coord": "1984633.73326999997",
+            "geo_point": [35.90158123079634, -79.05188495374357],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.06338932623882, 35.97266707189093]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 1,
+            "y_coord": "808954.57934199995",
+            "x_coord": "1981243.11734000011",
+            "geo_point": [35.97266707189093, -79.06338932623882],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.06098275392704, 35.968764756227586]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 1,
+            "y_coord": "807533.61865500000",
+            "x_coord": "1981954.34872999997",
+            "geo_point": [35.968764756227586, -79.06098275392704],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.0458375739862, 35.916915609623864]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 8,
+            "y_coord": "788657.36400299997",
+            "x_coord": "1986427.30502000009",
+            "geo_point": [35.916915609623864, -79.0458375739862],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-78.99805117265751, 35.95127205480812]
+        },
+        "properties": {
+            "town": "Durham",
+            "zone": 3,
+            "y_coord": "801160.44172700006",
+            "x_coord": "2000576.81306000007",
+            "geo_point": [35.95127205480812, -78.99805117265751],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.02486886858044, 35.925074234521034]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 5,
+            "y_coord": "791624.98677500000",
+            "x_coord": "1992636.97031000000",
+            "geo_point": [35.925074234521034, -79.02486886858044],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.03429373537993, 35.92927161541981]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 4,
+            "y_coord": "793153.71702700004",
+            "x_coord": "1989847.03759999992",
+            "geo_point": [35.92927161541981, -79.03429373537993],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.04321436750496, 35.93458784388464]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 4,
+            "y_coord": "795089.92455500003",
+            "x_coord": "1987206.84777999995",
+            "geo_point": [35.93458784388464, -79.04321436750496],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.01888742985389, 35.90630590785061]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 6,
+            "y_coord": "784792.72146499995",
+            "x_coord": "1994406.62058000010",
+            "geo_point": [35.90630590785061, -79.01888742985389],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.03277289550505, 35.90145541037008]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 10,
+            "y_coord": "783028.16533200000",
+            "x_coord": "1990293.95295000006",
+            "geo_point": [35.90145541037008, -79.03277289550505],
+            "signal_typ": "System_signal",
+            "id": 0,
+        "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.057615665952, 35.89287538213209]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 11,
+            "y_coord": "779908.31301399996",
+            "x_coord": "1982934.68409000011",
+            "geo_point": [35.89287538213209, -79.057615665952],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.07504343061736, 35.917516361517784]
+        },
+        "properties": {
+            "town": "Carrboro",
+            "zone": 13,
+            "y_coord": "788881.30959800002",
+            "x_coord": "1977779.49521999992",
+            "geo_point": [35.917516361517784, -79.07504343061736],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.07507128318046, 35.96976740604316]
+        },
+        "properties": {
+            "town": "Orange Ct",
+            "zone": 1,
+            "y_coord": "807901.45826400002",
+            "x_coord": "1977785.63167000003",
+            "geo_point": [35.96976740604316, -79.07507128318046],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.01652128349465, 35.95152889171452]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 2,
+            "y_coord": "801254.33565300005",
+            "x_coord": "1995110.07817999995",
+            "geo_point": [35.95152889171452, -79.01652128349465],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.03986687977073, 35.963643423970694]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 2,
+            "y_coord": "805666.18870199996",
+            "x_coord": "1988202.08352999995",
+            "geo_point": [35.963643423970694, -79.03986687977073],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.0796723911324, 35.89178341020384]
+        },
+        "properties": {
+            "town": "Carrboro",
+            "zone": 14,
+            "y_coord": "1976401.33339000004",
+            "x_coord": "1976401.33339000004",
+            "geo_point": [35.89178341020384, -79.0796723911324],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.05613294550501, 35.93519047115035]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 7,
+            "y_coord": "795311.20265800005",
+            "x_coord": "1983382.56426999997",
+            "geo_point": [35.93519047115035, -79.05613294550501],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.05465348237801, 35.90816079327575]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 12,
+            "y_coord": "785471.84105100005",
+            "x_coord": "1983815.12335000001",
+            "geo_point": [35.90816079327575, -79.05465348237801],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.0467027417678, 35.90995702444324]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 9,
+            "y_coord": "786124.48508000001",
+            "x_coord": "1986169.93356000003",
+            "geo_point": [35.90995702444324, -79.0467027417678],
+            "signal_typ": "System_signal",
+            "id": 0,
+            "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.05551860761834, 35.910268305813865]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 12,
+            "y_coord": "786239.13876100001",
+            "x_coord": "1983559.35745000001",
+            "geo_point": [35.910268305813865, -79.05551860761834],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.076511705404, 35.911222257062256]
+        },
+        "properties": {
+            "town": "Carrboro",
+            "zone": 13,
+            "y_coord": "786590.52076600003",
+            "x_coord": "1977342.97038999991",
+            "geo_point": [35.911222257062256, -79.076511705404],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.06424911352052, 35.90986738100432]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 13,
+            "y_coord": "786094.75769200001",
+            "x_coord": "1980973.91121000005",
+            "geo_point": [35.90986738100432, -79.06424911352052],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.059511019482, 35.9117304738785]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 12,
+            "y_coord": "786772.06780700001",
+            "x_coord": "1982377.40948999999",
+            "geo_point": [35.9117304738785, -79.059511019482],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.05816734789111, 35.9122682279587]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 12,
+            "y_coord": "786967.58000500000",
+            "x_coord": "1982775.41647000005",
+            "geo_point": [35.9122682279587, -79.05816734789111],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.0528631369558, 35.91428478824309]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 8,
+            "y_coord": "787700.75074799999",
+            "x_coord": "1984346.49662999995",
+            "geo_point": [35.91428478824309, -79.0528631369558],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.04925610582663, 35.91562906141827]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 8,
+            "y_coord": "788189.53124399995",
+            "x_coord": "1985414.83113999991",
+            "geo_point": [35.91562906141827, -79.04925610582663],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.0617714817016, 35.969725210402316]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 1,
+            "y_coord": "807883.38572599995",
+            "x_coord": "1981721.17067999998",
+            "geo_point": [35.969725210402316, -79.0617714817016],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.05837496757398, 35.94944218279029]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 7,
+            "y_coord": "800499.41421800002",
+            "x_coord": "1982721.89314000006",
+            "geo_point": [35.94944218279029, -79.05837496757398],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.04431669012526, 35.90368265744517]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 10,
+            "y_coord": "783840.23097899999",
+            "x_coord": "1986875.49468000000",
+            "geo_point": [35.90368265744517, -79.04431669012526],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.04640129627343, 35.90365765367888]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 10,
+            "y_coord": "783831.41146500001",
+            "x_coord": "1986258.12870000000",
+            "geo_point": [35.90365765367888, -79.04640129627343],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.054502152726, 35.904574999107446]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 9,
+            "y_coord": "784166.55299300002",
+            "x_coord": "1983859.22091999999",
+            "geo_point": [35.904574999107446, -79.054502152726],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.05298601183112, 35.90864610429751]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 9,
+            "y_coord": "785648.23132899997",
+            "x_coord": "1984309.01612999989",
+            "geo_point": [35.90864610429751, -79.05298601183112],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.07226723438397, 35.91110975031788]
+        },
+        "properties": {
+            "town": "Carrboro",
+            "zone": 13,
+            "y_coord": "786548.62529500003",
+            "x_coord": "1978599.83452000003",
+            "geo_point": [35.91110975031788, -79.07226723438397],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.07226651342972, 35.91030409099814]
+        },
+        "properties": {
+            "town": "Carrboro",
+            "zone": 13,
+            "y_coord": "786255.35699799994",
+            "x_coord": "1978599.83452000003",
+            "geo_point": [35.91030409099814, -79.07226651342972],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.07014458677226, 35.910573882473344]
+        },
+        "properties": {
+            "town": "Carrboro",
+            "zone": 13,
+            "y_coord": "786353.11309700005",
+            "x_coord": "1979228.26658999990",
+            "geo_point": [35.910573882473344, -79.07014458677226],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.06502704929397, 35.90963678035506]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 13,
+            "y_coord": "786010.96675000002",
+            "x_coord": "1980743.48612000002",
+            "geo_point": [35.90963678035506, -79.06502704929397],
+            "signal_typ": "System_signal",
+            "id": 0,
+                    "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.06375499043713, 35.91119122404934]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 1,
+            "y_coord": "786576.55560900003",
+            "x_coord": "1981120.54536000011",
+            "geo_point": [35.91119122404934, -79.06375499043713],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.05866318554321, 35.913169561473794]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 12,
+            "y_coord": "787295.76119500003",
+            "x_coord": "1982628.78232000000",
+            "geo_point": [35.913169561473794, -79.05866318554321],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.05453692756417, 35.91363185180163]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 8,
+            "y_coord": "787463.34307900001",
+            "x_coord": "1983850.73356000008",
+            "geo_point": [35.91363185180163, -79.05453692756417],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.05578596601535, 35.91314367484432]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 8,
+            "y_coord": "787285.84705500002",
+            "x_coord": "1983480.77318000002",
+            "geo_point": [35.91314367484432, -79.05578596601535],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-78.99052184383476, 35.954629504413774]
+        },
+        "properties": {
+            "town": "Durham",
+            "zone": 3,
+            "y_coord": "802382.73523800005",
+            "x_coord": "2002805.21368000004",
+            "geo_point": [35.954629504413774, -78.99052184383476],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.00718641836426, 35.94717721945069]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 3,
+            "y_coord": "799669.92972999997",
+            "x_coord": "1997872.87141999998",
+            "geo_point": [35.94717721945069, -79.00718641836426],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.0183217786226, 35.94221523442529]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 4,
+            "y_coord": "797864.11711899994",
+            "x_coord": "1994576.54680999997",
+            "geo_point": [35.94221523442529, -79.0183217786226],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.02358130855399, 35.93628233162659]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 5,
+            "y_coord": "795704.78563699999",
+            "x_coord": "1993019.15287000011",
+            "geo_point": [35.93628233162659, -79.02358130855399],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.02659884304826, 35.910124497422416]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 6,
+            "y_coord": "786183.24894099997",
+            "x_coord": "1992123.31126000010",
+            "geo_point": [35.910124497422416, -79.02659884304826],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.06392973347745, 35.879113749090976]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 11,
+            "y_coord": "774900.12903099996",
+            "x_coord": "1981061.27994000004",
+            "geo_point": [35.879113749090976, -79.06392973347745],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.07365588373676, 35.900687505763614]
+        },
+        "properties": {
+            "town": "Carrboro",
+            "zone": 14,
+            "y_coord": "782755.13181399996",
+            "x_coord": "1978185.80526999990",
+            "geo_point": [35.900687505763614, -79.07365588373676],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.07301004399598, 35.901663471492256]
+        },
+        "properties": {
+            "town": "Carrboro",
+            "zone": 14,
+            "y_coord": "783110.25067199999",
+            "x_coord": "1978377.34079000005",
+            "geo_point": [35.901663471492256, -79.07301004399598],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.09115877335381, 35.903729920834344]
+        },
+        "properties": {
+            "town": "Carrboro",
+            "zone": 14,
+            "y_coord": "783866.90122600005",
+            "x_coord": "1973003.10342000006",
+            "geo_point": [35.903729920834344, -79.09115877335381],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.03139617475988, 35.96013953511066]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 2,
+            "y_coord": "804389.81316599995",
+            "x_coord": "1990708.43986000004",
+            "geo_point": [35.96013953511066, -79.03139617475988],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.05192391014582, 35.96387893636086]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 2,
+            "y_coord": "805753.56893499999",
+            "x_coord": "1984634.05737999990",
+            "geo_point": [35.96387893636086, -79.05192391014582],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.10193240772792, 35.933645804944284]
+        },
+        "properties": {
+            "town": "Carrboro",
+            "zone": 15,
+            "y_coord": "794759.71803600003",
+            "x_coord": "1969823.64742000005",
+            "geo_point": [35.933645804944284, -79.10193240772792],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.10946064080369, 35.94274181612338]
+        },
+        "properties": {
+            "town": "Carrboro",
+            "zone": 15,
+            "y_coord": "798073.16377300001",
+            "x_coord": "1967598.62006999995",
+            "geo_point": [35.94274181612338, -79.10946064080369],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.01335212155003, 35.94606074272865]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 2,
+            "y_coord": "1996047.81036000000",
+            "x_coord": "1996047.81036000000",
+            "geo_point": [35.94606074272865, -79.01335212155003],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.02090016653769, 35.90717701322154]
+        },
+        "properties": {
+            "town": "Chapel Hill",
+            "zone": 6,
+            "y_coord": "1993810.62926999992",
+            "x_coord": "1993810.62926999992",
+            "geo_point": [35.90717701322154, -79.02090016653769],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }, {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-79.02009879896923, 35.940734480776754]
+        },
+        "properties": {
+            "zone": 4,
+            "y_coord": "1994050.41935999994",
+            "x_coord": "1994050.41935999994",
+            "geo_point": [35.940734480776754, -79.02009879896923],
+            "signal_typ": "System_signal",
+            "id": 0,
+                "marker-color": "#ff2c0c",
+        "marker-size": "medium",
+        "marker-symbol": "square"
+        }
+    }]
+}
